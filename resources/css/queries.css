@@ -1,0 +1,486 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* ABOUT */
+  .section--about_hello_title h3{
+    font-size: 160%;
+    margin-bottom: 25px;
+  }
+  
+  .section--about_hello p{
+    font-size: 100%;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 963px) and (max-width: 1024px) {
+  
+  /* REUSEABLE */
+
+  h2{
+    font-size: 160%;
+  }
+
+  /* HEADER */
+
+  .hero_text_box{
+    font-size: 90%;
+  }
+
+  /* CONTACT */
+
+  .section--contact_long_copy{
+    margin: 0 200px;
+  }
+  
+  /* ABOUT */
+
+  .section--about_hello_title h3{
+    font-size: 160%;
+    margin-bottom: 25px;
+  }
+  
+  .section--about_hello p{
+    font-size: 100%;
+  }
+  
+  /* BEFORE-FOOTER */
+
+  .before--footer{
+    font-size: 80%
+  }
+
+  .icon_network{
+    font-size: 26px;
+  }
+
+/* FOOTER */
+  .section--footer p {
+    font-size: 70%;
+  }
+ 
+ 
+}
+
+@media (min-width: 768px) and (max-width: 962px){
+  
+  /* REUSABLE */
+
+  h2{
+    font-size: 150%;
+  }
+
+  .icon_network,
+  .icon_hero,
+  .icon_contact{
+    font-size: 26px;
+  }
+
+  /* HEADER */
+
+  .hero_text_box{
+    font-size: 80%;
+  }
+
+  /* PROJECTS */
+
+  .photo img{
+    height: 200px;;
+  }
+
+  .section--projects_description{
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-bottom: 30px;
+  }
+
+  /* CONTACT */
+
+  .section--contact_long_copy{
+    margin: 0 100px;
+  }
+
+  /* ABOUT */
+
+  .section--about_hello{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    margin-left: 20px;
+  }
+  .section--about_hello_title h3{
+    font-size: 110%;
+    margin-bottom: 25px;
+  }
+  
+  .section--about_hello p{
+    font-size: 80%;
+  }
+  
+  /* BEFORE-FOOTER */
+
+  .before--footer{
+    font-size: 80%
+  }
+
+  .before--footer_job{
+    margin: 0 50px;
+  }
+
+  .before--footer_network{
+    margin: 0 50px;
+  }
+
+  .icon_network{
+    font-size: 26px;
+  }
+
+/* FOOTER */
+  .section--footer p {
+    font-size: 70%;
+  }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 612px) and (max-width: 767px) {
+  
+  /* REUSABLE */
+
+  h2{
+    font-size: 150%;
+  }
+
+  .icon_network,
+  .icon_hero,
+  .icon_contact{
+    font-size: 26px;
+  }
+
+  /* HEADER */
+
+  .hero_text_box{
+    font-size: 80%;
+  }
+
+  /* PROJECTS */
+
+  .photo img{
+    height: 150px;;
+  }
+
+  .section--projects_description{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+   }
+   
+  /* CONTACT */
+
+  .section--contact_long_copy{
+    margin: 0 100px;
+  }
+
+  /* ABOUT */
+
+  .section--about_hello{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    margin-left: 20px;
+  }
+
+  .section--about_hello_title h3{
+    font-size: 120%;
+    margin-bottom: 10px;
+  }
+  
+  .section--about_hello p{
+    font-size: 80%;
+  }
+  
+  /* BEFORE-FOOTER */
+
+  .before--footer{
+    font-size: 70%
+  }
+
+  .before--footer_job{
+    margin: 0 30px;
+  }
+
+  .before--footer_network{
+    margin: 0 30px;
+  }
+
+  .icon_network{
+    font-size: 20px;
+  }
+/* FOOTER */
+
+  .section--footer p {
+    font-size: 65%;
+  }
+}
+
+@media (min-width: 569px) and (max-width: 611px) {
+  /* REUSABLE */
+
+  h2{
+    font-size: 130%;
+  }
+
+  .icon_network,
+  .icon_hero,
+  .icon_contact{
+    font-size: 25px;
+  }
+  p{
+    font-size: 80%;
+  }
+  section{
+    padding: 50px 0;
+  }
+  /* NAV */
+
+  nav{
+    font-size: 80%;
+  }
+
+  .logo{
+    font-size: 35px;
+    margin-left: 10px;
+  }
+  /* HEADER */
+
+  
+  .hero_text_box{
+    font-size: 55%;
+  }
+
+  /* PROJECTS */
+
+  .photo img{
+    height: 140px;;
+  }
+  .section--projects_description{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+   }
+   
+  /* CONTACT */
+
+  .section--contact_long_copy{
+    margin: 0 70px;
+  }
+
+  /* ABOUT */
+
+  .section--about_hello{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    margin-left: 20px;
+
+  }
+
+  .section--about_hello_title h3{
+    font-size: 60%;
+    margin-bottom: 10px;
+  }
+  
+  .section--about_hello p{
+    font-size: 50%;
+  }
+  
+  /* BEFORE-FOOTER */
+
+  .before--footer{
+    font-size: 70%;
+    padding: 20px 0;
+
+  }
+
+  .before--footer_job{
+    margin: 0 10px;
+  }
+
+  .before--footer_network{
+    margin: 0 10px;
+  }
+
+  .icon_network{
+    font-size: 20px;
+    margin: 0 7px;
+  }
+/* FOOTER */
+
+  .section--footer p {
+    font-size: 60%;
+  }
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+@media (min-width: 320px) and (max-width: 568px){
+
+  /* REUSABLE */
+
+  h2{
+    font-size: 120%;
+  }
+
+  h2::after{
+    margin-top: 20px;
+    margin-bottom: 30px
+  }
+
+  
+  .icon_network,
+  .icon_hero,
+  .icon_contact{
+    font-size: 25px;
+  }
+ 
+  section{
+    padding: 30px 0;
+  }
+  /* NAV */
+
+  nav{
+    font-size: 70%;
+    padding-top: 10px;
+  }
+
+  .main_nav li{
+    margin-left: 12px;
+  }
+
+  .logo{
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  /* HEADER */
+
+  
+  .hero_text_box{
+    font-size: 40%;
+  }
+  .hero_text_box P{
+    font-size: 170%;
+    margin-bottom: 15px;
+  }
+
+  /* PROJECTS */
+
+  .photo img{
+    height: 120px;;
+  }
+  .section--projects_description{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    }
+  .section--projects_description p{
+    font-size: 15px;
+    }
+  
+  /* CONTACT */
+  .section--contact{
+    padding-bottom: 15px;
+  }
+
+  .section--contact_long_copy{
+    margin: 0 40px;
+    font-size: 15px;
+  }
+
+  .section--contact_icon_contact{
+    margin: 2px 0px;
+  }
+
+  /* ABOUT */
+
+  .section--about_hello{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+  .section--about_hello_title h3{
+    font-size: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .section--about_hello p{
+    font-size: 40%;
+  }
+  
+  /* BEFORE-FOOTER */
+
+  .before--footer{
+    font-size: 50%;
+    padding: 20px 0;
+  
+  }
+  
+  .before--footer_info{
+    margin: 0 20px;
+  }
+  .before--footer_info h3{
+    margin: 5px 0px;
+  }
+
+  .before--footer_job{
+    margin: 0 5px;
+  }
+
+  .before--footer_job p{
+    margin-bottom: 10px;
+  }
+  .before--footer_network{
+    margin: 0 5px;
+  }
+
+  .icon_network{
+    font-size: 15px;
+    margin: 0 5px;
+  }
+/* FOOTER */
+
+  .section--footer p {
+    font-size: 50%;
+    padding-bottom: 2px;
+  }
+  
+  
+}
