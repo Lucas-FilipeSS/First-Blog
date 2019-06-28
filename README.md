@@ -1,2 +1,3 @@
 # First-Blog
-Repositório para meu primeiro site
+
+Projeto de site para usar como portifólio
