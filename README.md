@@ -1,3 +1,3 @@
 # First-Blog
 
-Projeto de site para usar como portifólio
+Projeto de site feito para usar como portifólio
